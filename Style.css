@@ -2,40 +2,70 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-h1{
- font-size: 50px;
+p{
+    font-size: 18px;
+    color: dimgray;
+    
 }
-.name-light{
-    color: tomato;
+span{
+    color: blue;
+}
+h1{
+    font-size: 50px;
+
 }
 .half-width{
-    margin-left: 5%;
-    width: 44%;
+    width: 40%;
     float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 .header{
-    background-image: url(/images/top-banner.png);
+    padding-top: 2%;
+    background-image: url("/images/top-banner.png");
     background-repeat: no-repeat;
-    height: 500px;
-    padding-left: 3%;
-    margin-top: 2%;
-    margin-left: 2px;
 }
-
-.header p{
-    font-size: 18px;
-    text-align: justify;
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.half-width img{
+    width: 100%;
 }
 .button{
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
     text-decoration: none;
-    font-size: 20px;
+    font-weight: 700;
     color: white;
-    background-color: orangered;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 10px;
-    font-weight: 600;
-   
 }
-img{
-    width: 100%;
+/* Dream area */
+.dream-area{
+    background-image: url("/images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* Experience Area  */
+
+.experience-area p{
+    color: dimgray;
+    text-align: justify;
+    padding: 10px 10px;
+}
+#h3{
+ color: tomato;
+}
+.single-experience{
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 5px;
+    height: 60%;
+    
+}
+footer P{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    margin-top: -50px;
 }
